@@ -1,76 +1,186 @@
-/**
-Code By Web Dev Trick ( https://webdevtrick.com )
-For More Source Code Visit Our Blog ( https://webdevtrick.com )
-**/
-
-body, html {
-	background: #ECEDEF;
-	margin: 0;
-	padding: 0;
+.instient-technical-challenge-window,
+.instient-technical-challenge-window * {
+  box-sizing: border-box;
 }
-
-.container {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: #fff;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
-	border-radius: 14px;
-	padding-bottom: 20px;
-	width: 320px;
-	
+.instient-technical-challenge-window {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 1188px;
+  height: 757px;
+  position: relative;
 }
-.display {
-	width: 100%;
-	height: 60px;
-	padding: 40px 0;
-	background: #FF0509;
-	border-top-left-radius: 14px;
-	border-top-right-radius: 14px;
+.header-frame-left-column {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
 }
-.buttons {
-	padding: 20px 20px 0 20px;
+.z-1 {
+  flex-shrink: 0;
+  width: 99px;
+  height: 100px;
+  position: relative;
 }
-.row {
-	width: 280px;
-	float: left;
+.frame-20 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
 }
-input[type=button] {
-	width: 60px;
-	height: 60px;
-	float: left;
-	padding: 0;
-	margin: 5px;
-	box-sizing: border-box;
-	background: #ecedef;
-	border: none;
-	font-size: 30px;
-	line-height: 30px;
-	border-radius: 50%;
-	font-weight: 700;
-	color: #5E5858;
-	cursor: pointer;
-	
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: undefined;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
-input[type=text] {
-	width: 270px;
-	height: 60px;
-	float: left;
-	padding: 0;
-	box-sizing: border-box;
-	border: none;
-	background: none;
-	color: #ffffff;
-	text-align: right;
-	font-weight: 700;
-	font-size: 60px;
-	line-height: 60px;
-	margin: 0 25px;
-	
+.zip {
+  color: #000000;
+  text-align: left;
+  font: var(--section-title, 600 40px "Inter", sans-serif);
+  position: relative;
 }
-.red {
-	background: #FF0509 !important;
-	color: #ffffff !important;
-	
+.messenger {
+  color: var(--label-text, #c7c7c7);
+  text-align: left;
+  font: var(--label-text, 400 18px "Inter", sans-serif);
+  position: relative;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.v-1 {
+  flex-shrink: 0;
+  width: 69px;
+  height: 69px;
+  position: relative;
+}
+.s-1 {
+  margin: 0 0 0 -30px;
+  flex-shrink: 0;
+  width: 69px;
+  height: 69px;
+  position: relative;
+}
+.g-1 {
+  margin: 0 0 0 -30px;
+  flex-shrink: 0;
+  width: 69px;
+  height: 69px;
+  position: relative;
+}
+.message-frame-center-column {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frame-17 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.message {
+  color: #000000;
+  text-align: left;
+  font: var(--section-title, 600 40px "Inter", sans-serif);
+  position: relative;
+}
+.enter-message-below {
+  color: var(--label-text, #c7c7c7);
+  text-align: left;
+  font: var(--label-text, 400 18px "Inter", sans-serif);
+  position: relative;
+}
+.rectangle-1 {
+  border-style: solid;
+  border-color: #ababab;
+  border-width: 1px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.button-frame-right-column {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 184px;
+  position: relative;
+}
+.button {
+  background: var(--button-affirm, #32c1ff);
+  border-radius: 8px;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.button2 {
+  color: var(--button-text, #ffffff);
+  text-align: left;
+  font: 700 25px "Inter", sans-serif;
+  position: relative;
+}
+.button3 {
+  background: #ff0000;
+  border-radius: 8px;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 53px;
+  position: relative;
+  overflow: hidden;
 }
